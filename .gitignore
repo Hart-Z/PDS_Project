@@ -1,2 +1,3 @@
 .vscode/
 src/
+.vector_cache/
