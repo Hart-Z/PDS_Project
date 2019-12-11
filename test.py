@@ -1,7 +1,6 @@
-import csv
+import numpy as np
+a = np.array([1,2,3,4])
+b = np.array([2,3,4,5])
 
-reader = csv.reader("Pittsburgh_review.csv")
-
-for line in reader:
-    print(line)
-    break
+for x, y in zip(a,b):
+    print(str(x),str(y))
